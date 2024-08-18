@@ -18,6 +18,8 @@ logs/
 out/
 rvdecoderdb/
 riscv-opcodes/
+waveform.vcd
+
 
 # DRAMsim3
 *.html
