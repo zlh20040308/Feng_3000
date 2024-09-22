@@ -1,4 +1,4 @@
-TOPNAME = Decode
+TOPNAME = Top
 INC_PATH ?=
 
 VERILATOR = verilator

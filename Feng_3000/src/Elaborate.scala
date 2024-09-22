@@ -45,13 +45,8 @@ object Elaborate extends App {
     "--disable-all-randomization"
   )
 
-  // ChiselStage.emitSystemVerilogFile(
-  //   new SimTop,
-  //   firrtlOpts,
-  //   firtoolOpts
-  // )
     ChiselStage.emitSystemVerilogFile(
-    new Decode,
+    new Top,
     firrtlOpts,
     firtoolOpts
   )
